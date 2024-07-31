@@ -1,0 +1,24 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Ignore editor files
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.DS_Store
+
+# Ignore sensitive files
+secrets.tfvars
